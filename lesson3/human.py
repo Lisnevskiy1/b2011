@@ -1,7 +1,7 @@
 
 class Human:
 
-    def __init__(self, name, role):
+    def __init__(self, name = None, role = None):
         self.Name = name
         self.Role = role
 
